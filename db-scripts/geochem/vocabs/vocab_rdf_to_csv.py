@@ -17,6 +17,7 @@ def convert(f):
                 ?iri skos:notation ?notation .
             }        
         }
+        ORDER BY ?pl
     """
     id = 0
     with open(f.replace(".ttl", ".csv"), "w") as csvfile:
