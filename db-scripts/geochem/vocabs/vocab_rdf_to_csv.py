@@ -29,10 +29,11 @@ def convert(f):
 
 
 fs = [
-    "materials.ttl",
-    "procedures-geochemistry.ttl",
-    "samplers.ttl",
-    "specimenTypes.ttl"
+    # "materials.ttl",
+    "observable-properties.ttl",
+    # "procedures-geochemistry.ttl",
+    # "samplers.ttl",
+    # "specimenTypes.ttl"
 ]
 
 for f in fs:
