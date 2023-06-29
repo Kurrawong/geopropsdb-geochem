@@ -4,6 +4,6 @@ SELECT
     "http://example.com/sample/" & Sample AS iri,
     "Sample " & SampleID AS label,
     Data_Type AS type_notation,
-	60 AS type,
+	36 AS type,
     1 AS source
 FROM s_Seds
